@@ -1,0 +1,156 @@
+/* Type your code here */
+* {
+	margin-left: 30px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+
+#logo {
+	margin-left: 1300px;
+	margin-right: 20px;
+}
+
+.head1 {
+	font-size: 49px;
+	text-shadow: black;
+}
+
+.head2 {
+	font-size: 25px;
+	color: darkgray;
+	line-height: 0px;
+
+}
+
+.color {
+	background-color: red;
+	color: white;
+
+
+}
+
+table {
+	margin-top: 50px;
+	border: solid;
+	border-collapse: collapse;
+	background-color: white;
+	width: 75%
+}
+
+td:first-child {
+	padding-right: .30em;
+}
+
+td {
+	padding-top: .5em;
+	padding-right: .5em;
+	padding-bottom: .5em;
+	padding-left: .5em;
+}
+
+
+
+
+/* change the font family and spacing as per your project font */
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	position: relative;
+	top: 64px;
+	margin-left: 15x;
+	margin-right: 120px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+	font-style: normal;
+
+}
+
+.background {
+	position: fixed;
+	margin-top: -400px;
+	margin-right: 100px;
+	margin-bottom: 5px;
+	margin-left: 718px;
+	z-index: -1;
+}
+
+.result {
+	color: gray;
+	padding-right: 10px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.popup {
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 30%;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+	margin-top: 0;
+	color: #333;
+	font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+
+.popup .close:hover {
+	color: #06D85F;
+}
+
+.popup .content {
+	max-height: 30%;
+	overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+
+	.popup {
+		width: 70%;
+	}
+}
+
+a {
+	color: #0060B6;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00A0C6;
+	text-decoration: none;
+	cursor: pointer;
+}
